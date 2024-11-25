@@ -1,0 +1,32 @@
+ /* CSS for Portfolio */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 2rem 0;
+            background-color: #333;
+            color: white;
+        }
+
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .skills ul {
+            list-style: none;
+            display: inline-flex;
+            gap: 1rem;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
