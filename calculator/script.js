@@ -8,10 +8,6 @@
                 button.addEventListener("click", () => {
                     const value = button.textContent;
 
-                    if (value === '×') {
-                      value = '*'; // Map × to *
-                    }
-                  
                     if (button.classList.contains("clear")) {
                         // Clear Button
                         currentInput = "";
