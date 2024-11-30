@@ -1,56 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lorem Ipsum</title>
-    <link rel="stylesheet" href="styles.css">
-    </head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
 <body>
-    <header class="header">
-        <div class="container">
-            <h1 class="logo">Lorem Ipsum</h1>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="logo">BrandName</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#faq">FAQs</a></li>
+        <li><a href="#footer">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Welcome to Lorem Ipsum</h1>
-            <p>Your gateway to modern solutions.</p>
-            <a href="#services" class="btn">Learn More</a>
-        </div>
-    </section>
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="container">
+      <h1 class="hero-title">Innovate. Inspire. Excel.</h1>
+      <p class="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explore the future with us.</p>
+      <button class="cta-btn">Get Started</button>
+    </div>
+  </header>
 
-    <section id="about" class="about">
-        <h2>About Us</h2>
-        <p>We provide innovative solutions tailored to your needs. Our team is dedicated to delivering excellence in every project.</p>
-    </section>
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">About Our Product</h2>
+      <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, voluptatum.</p>
+    </div>
+  </section>
 
-    <section id="services" class="services">
-        <h2>Our Services</h2>
-        <div class="service-box">
-            <h3>Web Development</h3>
-            <p>Professional websites to make your brand stand out.</p>
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <div class="container">
+      <h2 class="section-title">Features</h2>
+      <div class="feature-grid">
+        <div class="feature-item" data-popup="Feature 1 Details">
+          <h3>Feature 1</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
-        <div class="service-box">
-            <h3>Marketing</h3>
-            <p>Strategies to grow your reach and audience.</p>
+        <div class="feature-item" data-popup="Feature 2 Details">
+          <h3>Feature 2</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
-        <div class="service-box">
-            <h3>Consulting</h3>
-            <p>Expert advice for your business challenges.</p>
+        <div class="feature-item" data-popup="Feature 3 Details">
+          <h3>Feature 3</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <footer class="footer">
-        <p>&copy; 2024 Lorem Ipsum. All Rights Reserved.</p>
-    </footer>
+  <!-- Scrolling Feedback Section -->
+  <section class="feedback">
+    <h2 class="section-title">What Our Clients Say</h2>
+    <div class="scroll-container">
+      <div class="scroll-item">"Amazing product!"</div>
+      <div class="scroll-item">"Highly recommend."</div>
+      <div class="scroll-item">"Exceeded expectations."</div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="faq">
+    <h2 class="section-title">FAQs</h2>
+    <div class="faq-item">
+      <div class="faq-question">What is this product about? <span class="arrow">▼</span></div>
+      <div class="faq-answer">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">How does it work? <span class="arrow">▼</span></div>
+      <div class="faq-answer">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer" class="footer">
+    <div class="container">
+      <div class="footer-columns">
+        <div class="footer-col">
+          <h4>About Us</h4>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#faq">FAQs</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <p>Email: info@brand.com</p>
+        </div>
+      </div>
+      <div class="social-icons">
+        <a href="#" class="icon">in</a>
+        <a href="#" class="icon">fb</a>
+        <a href="#" class="icon">tw</a>
+      </div>
+    </div>
+  </footer>
 </body>
-</html>
+    </html>
