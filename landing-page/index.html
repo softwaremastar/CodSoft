@@ -1,126 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Product Landing Page</title>
-  <link rel="stylesheet" href="styles.css">
-  <script defer src="script.js"></script>
-</head>
-<body>
-  <!-- Navbar -->
-  <nav class="navbar">
-    <div class="container">
-      <h1 class="logo">BrandName</h1>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#faq">FAQs</a></li>
-        <li><a href="#footer">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Product Landing Page</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav id="navbar">
+                <ul class="nav-links" id="nav-links">
+                    <li class="logo">Lorem Ipsum</li>
+                    <li><a href="#welcome-section">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
 
-  <!-- Hero Section -->
-  <header class="hero">
-    <div class="container">
-      <h1 class="hero-title">Innovate. Inspire. Excel.</h1>
-      <p class="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explore the future with us.</p>
-      <button class="cta-btn">Get Started</button>
-    </div>
-  </header>
+        <section class="hero">
+            <div class="bg-img"></div>
+            <h1 id="welcome-section">Welcome to Lorem Ipsum</h1>
+            <p>Experience beauty, technology, and style like never before.</p>
+            <a href="#services"><button class="cta">Explore Now</button></a>
+        </section>
 
-  <!-- About Section -->
-  <section id="about" class="about">
-    <div class="container">
-      <h2 class="section-title">About Our Product</h2>
-      <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, voluptatum.</p>
-    </div>
-  </section>
+        <section class="img-container">
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCwQbdN4zdvqOwFX3UC7RPRQ51AazzS9aRbg&usqp=CAU"
+                alt="Responsive Web Design"
+            />
+        </section>
 
-  <!-- Features Section -->
-  <section id="features" class="features">
-    <div class="container">
-      <h2 class="section-title">Features</h2>
-      <div class="feature-grid">
-        <div class="feature-item" data-popup="Feature 1 Details">
-          <h3>Feature 1</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-        <div class="feature-item" data-popup="Feature 2 Details">
-          <h3>Feature 2</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-        <div class="feature-item" data-popup="Feature 3 Details">
-          <h3>Feature 3</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Scrolling Feedback Section -->
-  <section class="feedback">
-    <h2 class="section-title">What Our Clients Say</h2>
-    <div class="scroll-container">
-      <div class="scroll-item">"Amazing product!"</div>
-      <div class="scroll-item">"Highly recommend."</div>
-      <div class="scroll-item">"Exceeded expectations."</div>
-    </div>
-  </section>
-
-  <!-- FAQ Section -->
-  <section id="faq" class="faq">
-    <h2 class="section-title">FAQs</h2>
-    <div class="faq-item">
-      <div class="faq-question">What is this product about? <span class="arrow">▼</span></div>
-      <div class="faq-answer">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
-    </div>
-    <div class="faq-item">
-      <div class="faq-question">How does it work? <span class="arrow">▼</span></div>
-      <div class="faq-answer">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer id="footer" class="footer">
-    <div class="container">
-      <div class="footer-columns">
-        <div class="footer-col">
-          <h4>About Us</h4>
-          <p>Lorem ipsum dolor sit amet consectetur.</p>
-        </div>
-        <div class="footer-col">
-          <h4>Quick Links</h4>
-          <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#faq">FAQs</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Contact Us</h4>
-          <p>Email: info@brand.com</p>
-        </div>
-      </div>
-      <div class="social-icons" style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin: 10px 0;">
-  <a href="https://twitter.com/itsaadi_09" target="_blank" class="icon" onclick="alert('Opening X profile in a new tab.');">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/X_icon.svg" alt="X" style="width: 30px; height: 30px; display: inline-block; border-radius: 50%; overflow: hidden;">
-  </a>
-  <a href="https://linkedin.com/in/aadityadubey" target="_blank" class="icon" onclick="alert('Opening LinkedIn profile in a new tab.');">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" style="width: 30px; height: 30px; display: inline-block; border-radius: 50%; overflow: hidden;">
-  </a>
-  <a href="https://github.com/aadi-09" target="_blank" class="icon" onclick="alert('Opening GitHub profile in a new tab.');">
-    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" style="width: 30px; height: 30px; display: inline-block; border-radius: 50%; overflow: hidden;">
-  </a>
-  <a href="https://therusticreveriehub.blogspot.com" target="_blank" class="icon" onclick="alert('Opening Blogger page in a new tab.');">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Blogger.svg/32px-Blogger.svg.png" alt="Blogger" style="width: 30px; height: 30px; display: inline-block; border-radius: 50%; overflow: hidden;">
-  </a>
-  <a href="https://deepstash.com" target="_blank" class="icon" onclick="alert('Opening Deepstash profile in a new tab.');">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Deepstash_Logo.png" alt="Deepstash" style="width: 30px; height: 30px; display: inline-block; border-radius: 50%; overflow: hidden;">
-  </a>
+        <section id="about">
+            <div>
+                <h1>ABOUT US</h1>
+                <hr />
+                <h3>We are passionate to fulfill are clients needs.</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Morbi et libero ac velit ornare euismod. Donec ultrices orci
+                    vel dui cursus euismod. Quisque ac lacus lobortis, molestie
+                    turpis id, tempor metus. Ut sem neque, semper pharetra purus
+                    nec, elementum sollicitudin sapien. Ut sagittis maximus
+                    cursus. Donec rutrum vulputate ullamcorper. Ut mollis nibh
+                    ultricies turpis molestie mollis. Sed dolor metus, cursus et
+                    scelerisque vel, porta et magna. Phasellus semper massa id
+                    convallis rutrum. Quisque quis massa vulputate magna gravida
+                    pharetra eget a magna. Vestibulum rhoncus elementum massa,
+                    eget sagittis sem ultrices interdum.
+                </p>
+            </div>
+        </section>
+        
+        <div id="progressContainer" style="position: fixed; top: 0; width: 100%; height: 5px; background: #f4f4f4;">
+    <div id="progressBar" style="height: 5px; background: #333; width: 0%; z-index: 1;"></div>
 </div>
-    </div>
-  </footer>
-</body>
-    </html>
+        <!--Sample to build services tiles-->
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="services-container">
+                <div class="service-tile">
+                    <h3>Web Development</h3>
+                    <p>
+                        Phasellus semper massa id convallis rutrum. Quisque quis massa vulputate magna gravida pharetra eget a magna.
+                    </p>
+                </div>
+                <div class="service-tile">
+                    <h3>Database Management</h3>
+                    <p>
+                        Curabitur finibus aliquam cursus. Aenean ante metus, interdum sit amet hendrerit et, volutpat at dolor. Phasellus a euismod eros, nec volutpat sem.
+                    </p>
+                </div>
+                <div class="service-tile">
+                    <h3>Graphic Design</h3>
+                    <p>
+                        Donec ultrices orci vel dui cursus euismod. Quisque ac lacus lobortis, molestie turpis id, tempor metus.
+                    </p>
+                </div>
+            </div>
+        </section>
+<footer>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="social-icons">
+            <a
+                href="https://twitter.com/itsaadi_09"
+                target="_blank"
+                class="icon"
+                onclick="alert('Opening X profile in a new tab.');"
+            >
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/c/cc/X_icon.svg"
+                    alt="X"
+                />
+            </a>
+            <a
+                href="https://linkedin.com/in/aadityadubey"
+                target="_blank"
+                class="icon"
+                onclick="alert('Opening LinkedIn profile in a new tab.');"
+            >
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
+                    alt="LinkedIn"
+                />
+            </a>
+            <a
+                href="https://github.com/aadi-09"
+                target="_blank"
+                class="icon"
+                onclick="alert('Opening GitHub profile in a new tab.');"
+            >
+                <img
+                    src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                    alt="GitHub"
+                />
+            </a>
+            <a
+                href="https://gitlab.com/aadi-09"
+                target="_blank"
+                class="icon"
+                onclick="alert('Opening Gitlab profile in a new tab.');"
+            >
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/3/35/GitLab_icon.svg"
+                    alt="Gitlab"
+                />
+            </a>
+            <a
+                href="https://therusticreveriehub.blogspot.com"
+                target="_blank"
+                class="icon"
+                onclick="alert('Opening Blogger page in a new tab.');"
+            >
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Blogger.svg/32px-Blogger.svg.png"
+                    alt="Blogger"
+                />
+            </a>
+            <a
+                href="https://deepstash.com/aadityavibes"
+                target="_blank"
+                class="icon"
+                onclick="alert('Opening Deepstash profile in a new tab.');"
+            >
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Deepstash_Logo.png"
+                    alt="Deepstash"
+                />
+            </a>
+        </div>
+    </section>
+    <hr />
+    <section class="footer-links">
+        <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#blog">Blog!</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Resources</h3>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Careers</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Newsletter</h3>
+            <p>Subscribe to our newsletter for the latest updates.</p>
+            <form>
+                <input
+                    type="email"
+                    placeholder="Enter your email"
+                    required
+                    style="padding: 10px; margin-bottom: 10px; border-radius: 5px;"
+                />
+                <button
+                    type="submit"
+                    style="background: #ffd700; border: none; color: black; padding: 10px 20px; cursor: pointer; border-radius: 5px;"
+                >
+                    Subscribe
+                </button>
+            </form>
+        </div>
+    </section>
+    <hr />
+    <p>© 2024 Lorem Ipsum. All rights reserved.</p>
+    <p>
+        Address: 123 Innovation Drive, Tech City, Planet Earth | Phone: +123
+        456 7890 | Email: <a href="mailto:support@loremipsum.com">support@loremipsum.com</a>
+    </p>
+</footer>
+
+    </body>
+</html>
