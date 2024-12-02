@@ -1,52 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="styles.css" />
     </head>
-<body>
-    <header>
-        <h1>John Doe</h1>
-        <p>Aspiring Web Developer</p>
-    </header>
+    <body>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#welcome-section">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <header id="welcome-section">
+            <div class="welcome-text">
+                <h1>Hi, I'm Aaditya</h1>
+                <p>
+                    Aspiring Web Developer | Intern @CodSoft | Passionate about
+                    Technology and Innovation
+                </p>
+            </div>
+        </header>
 
-    <section class="about">
-        <h2>About Me</h2>
-        <img src="https://via.placeholder.com/150" alt="Profile Image">
-        <p>Hi, I'm John! I specialize in creating beautiful, responsive websites. Let's build something amazing together!</p>
-    </section>
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="projects-container">
+                <div class="project-tile">
+                    <a
+                        href="https://aadi-09.github.io/Projects/TributePage/"
+                        target="_blank"
+                    >
+                        <h3>Tribute Page</h3>
+                        <p>
+                            A tribute to Dr. Carl Sagan, showcasing my web
+                            design skills and passion for science.
+                        </p>
+                    </a>
+                </div>
+                <div class="project-tile">
+                    <a
+                        href="https://aadi-09.github.io/CodSoft/calculator/"
+                        target="_blank"
+                    >
+                        <h3>Calculator</h3>
+                        <p>
+                            A JavaScript-based calculator demonstrating
+                            interactive design and programming expertise.
+                        </p>
+                    </a>
+                </div>
+                <div class="project-tile">
+                    <a
+                        href="https://aadi-09.github.io/Projects/ToDo-List/"
+                        target="_blank"
+                    >
+                        <h3>ToDo-List</h3>
+                        <p>
+                            A modern, responsive ToDo-List showcasing creative
+                            web design.
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </section>
 
-    <section class="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>React</li>
-        </ul>
-    </section>
-
-    <section class="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project 1</h3>
-            <p>A modern e-commerce website.</p>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I'm a B.Sc. student specializing in Chemistry and Zoology, with
+                a passion for coding, web design, and technology.
+            </p>
+        </section>
+        <footer>
+                   <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Have a project idea? Let’s connect!</p>
+        <div class="social-icons">
+            <a
+                href="https://twitter.com/itsaadi_09"
+                target="_blank"
+                class="icon"
+                onclick="alert('Opening X profile in a new tab.');"
+            >
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/c/cc/X_icon.svg"
+                    alt="X"
+                />
+            </a>
+            <a
+                href="https://linkedin.com/in/aadityadubey"
+                target="_blank"
+                class="icon"
+                onclick="alert('Opening LinkedIn profile in a new tab.');"
+            >
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
+                    alt="LinkedIn"
+                />
+            </a>
+            <a
+                href="https://github.com/aadi-09"
+                target="_blank"
+                class="icon"
+                onclick="alert('Opening GitHub profile in a new tab.');"
+            >
+                <img
+                    src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                    alt="GitHub"
+                />
+            </a>
+            <a
+                href="https://gitlab.com/aadi-09"
+                target="_blank"
+                class="icon"
+                onclick="alert('Opening Gitlab profile in a new tab.');"
+            >
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/3/35/GitLab_icon.svg"
+                    alt="Gitlab"
+                />
+            </a>
+            <a
+                href="https://therusticreveriehub.blogspot.com"
+                target="_blank"
+                class="icon"
+                onclick="alert('Opening Blogger page in a new tab.');"
+            >
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Blogger.svg/32px-Blogger.svg.png"
+                    alt="Blogger"
+                />
+            </a>
+            <a
+                href="https://deepstash.com/aadityavibes"
+                target="_blank"
+                class="icon"
+                onclick="alert('Opening Deepstash profile in a new tab.');"
+            >
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Deepstash_Logo.png"
+                    alt="Deepstash"
+                />
+            </a>
         </div>
-        <div class="project">
-            <h3>Project 2</h3>
-            <p>Interactive portfolio showcase.</p>
+    </section>
+    <hr />
+    <section class="footer-links">
+        <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#blog">Blog!</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Resources</h3>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Careers</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Newsletter</h3>
+            <p>Subscribe to our newsletter for the latest updates.</p>
+            <form>
+                <input
+                    type="email"
+                    placeholder="Enter your email"
+                    required
+                    style="padding: 10px; margin-bottom: 10px; border-radius: 5px;"
+                />
+                <button
+                    type="submit"
+                    style="background: #ffd700; border: none; color: black; padding: 10px 20px; cursor: pointer; border-radius: 5px;"
+                >
+                    Subscribe
+                </button>
+            </form>
         </div>
     </section>
-
-    <section class="contact">
-        <h2>Contact</h2>
-        <p>Email: john.doe@example.com</p>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 John Doe. All rights reserved.</p>
-    </footer>
-</body>
+    <hr />
+            <p>© 2024 Aaditya | Designed with passion.</p>
+               <p>
+        Address: 123 Innovation Drive, Tech City, Planet Earth | Phone: +123
+        456 7890 | Email: <a href="mailto:support@loremipsum.com">support@loremipsum.com</a>
+    </p>
+        </footer>
+    </body>
 </html>
